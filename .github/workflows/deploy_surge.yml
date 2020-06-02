@@ -28,4 +28,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge D:/"Memon Personal"/"Entertainment & Knowledge"/PIAIC/"Bootcamp May 2020"/Bootcamp2020/  / bootcamp2020_memon1stproject.surge.sh/ --token $({secrets.SURGE_TOKEN_FOR_BOOTCAMP_1STPROJECT})
+      run: surge ./ bootcamp2020_memon1stproject.surge.sh/ --token $({secrets.SURGE_TOKEN_FOR_BOOTCAMP_1STPROJECT})
